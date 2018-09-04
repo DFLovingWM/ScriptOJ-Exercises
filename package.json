@@ -1,0 +1,19 @@
+{
+  "name": "ScriptOJ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Q27_compose函数.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0",
+    "rambda": "^1.2.2",
+    "should": "^13.2.3"
+  }
+}

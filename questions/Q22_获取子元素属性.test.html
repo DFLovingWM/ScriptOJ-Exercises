@@ -1,0 +1,20 @@
+<body onload="onload()">
+  <ul id='list'>
+    <li data-name="Jerry" class="item"><span>1</span></li>
+    <li data-name="Lucy" class="item"><span>2</span></li>
+    <li data-name="Tomy"><span>3</span></li>
+  </ul>
+
+  <!-- 中文字编码找不到文件？ -->
+  <!-- <script src="./Q22_获取子元素属性.js"></script> -->
+
+  <script src="./Q22.js"></script>
+
+  <script>
+    function onload () {
+      const el = document.getElementById('list')
+      console.log( getChildAttributes(el, 'data-name') ) // => ['Jerry', 'Lucy', 'Tomy']
+      console.log( getChildAttributes(el, 'class') ) // => ['item', 'item', null] 
+    }
+  </script>
+</body>
